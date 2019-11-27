@@ -1,0 +1,7 @@
+<launch>
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ros_pa3)/include/config/config.rviz" />
+
+  <node type="move.py" name="cfproj" pkg="ros_cfproj"/>
+</launch>
+
